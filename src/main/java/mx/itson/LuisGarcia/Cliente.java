@@ -3,7 +3,7 @@ package mx.itson.LuisGarcia;
 
 /**
  * Esta clase  funcionara como el registro de un ciente
- * @author luis garcia
+ * @author luis garcia id:216622
  * @version  29/04/2020
  * @see <a href="http://itson.mx" > ir a itson a ver mas sobre el proyecto </a>
  */
