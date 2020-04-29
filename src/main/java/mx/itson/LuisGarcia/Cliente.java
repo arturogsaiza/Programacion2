@@ -16,7 +16,16 @@ public class Cliente {
     private String apellido;
     private String correo;
     private String direccion;
-    //constructor de la clase usuario
+    /**
+     * constructor de la clase usuario
+     * @param nombre nombre cel cliente
+     * @param id numero de cliente
+     * @param tipo tipo de membresia
+     * @param rfc rfc del cliente
+     * @param apellido apellido del cliente
+     * @param correo correo del cliente
+     * @param direccion direccion del cliente
+     */
     public Cliente(String nombre, String id, String tipo, String rfc, String apellido, String correo, String direccion) {
         this.nombre = nombre;
         this.id = id;
@@ -25,6 +34,27 @@ public class Cliente {
         this.apellido = apellido;
         this.correo = correo;
         this.direccion = direccion;
+    }
+    /**
+     * 
+     * @param nombre nombre del cliente para entrar a la pagina
+     * @param correo correo del cliente
+     * @return 
+     */
+    public boolean login(String nombre,String correo){
+        
+        return true;
+    }
+    /**
+     * 
+     * @param nombre nombre del cliente a registrar
+     * @param correo correo del cliente a registrar
+     * @param tipo tipo de membresia que va a comprar
+     * @return 
+     */
+    public boolean registrar(String nombre, String correo, String tipo){
+        
+        return true;
     }
 
     public String getNombre() {
