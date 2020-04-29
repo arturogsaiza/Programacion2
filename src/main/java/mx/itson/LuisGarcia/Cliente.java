@@ -8,6 +8,7 @@ package mx.itson.LuisGarcia;
  * @see <a href="http://itson.mx" > ir a itson a ver mas sobre el proyecto </a>
  */
 public class Cliente {
+    
     //datos a ocupar para generar el ticket
     private String nombre;
     private String id;//numero de cliente
@@ -16,6 +17,7 @@ public class Cliente {
     private String apellido;
     private String correo;
     private String direccion;
+
     /**
      * constructor de la clase usuario
      * @param nombre nombre cel cliente
@@ -39,7 +41,7 @@ public class Cliente {
      * 
      * @param nombre nombre del cliente para entrar a la pagina
      * @param correo correo del cliente
-     * @return 
+     * @return regrasa si los datos son correctos
      */
     public boolean login(String nombre,String correo){
         
@@ -50,7 +52,7 @@ public class Cliente {
      * @param nombre nombre del cliente a registrar
      * @param correo correo del cliente a registrar
      * @param tipo tipo de membresia que va a comprar
-     * @return 
+     * @return regrasa si el registro fue correcto
      */
     public boolean registrar(String nombre, String correo, String tipo){
         
