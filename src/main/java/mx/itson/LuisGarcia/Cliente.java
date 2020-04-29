@@ -8,6 +8,7 @@ package mx.itson.LuisGarcia;
  * @see <a href="http://itson.mx" > ir a itson a ver mas sobre el proyecto </a>
  */
 public class Cliente {
+    
     //datos a ocupar para generar el ticket
     private String nombre;
     private String id;//numero de cliente
@@ -16,7 +17,17 @@ public class Cliente {
     private String apellido;
     private String correo;
     private String direccion;
-    //constructor de la clase usuario
+    
+    /**
+     * constructor de la clase usuario
+     * @param nombre
+     * @param id
+     * @param tipo
+     * @param rfc
+     * @param apellido
+     * @param correo
+     * @param direccion 
+     */
     public Cliente(String nombre, String id, String tipo, String rfc, String apellido, String correo, String direccion) {
         this.nombre = nombre;
         this.id = id;
@@ -25,6 +36,16 @@ public class Cliente {
         this.apellido = apellido;
         this.correo = correo;
         this.direccion = direccion;
+    }
+    /**
+     *  metodo para el inicio de sesion
+     * @param usuario el usuario a iniciar
+     * @param contrasena la constraseña
+     * @return  regresa si el usuario es correcto
+     */
+    public  boolean login(String usuario, String contrasena){
+    
+        return true;
     }
 
     public String getNombre() {

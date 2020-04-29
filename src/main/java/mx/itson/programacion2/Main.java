@@ -16,8 +16,56 @@ public class Main {
      */
     public static void main(String[] args) {
        
-        Calculadora c = new Calculadora();
+       // Calculadora c = new Calculadora();
+       intercambio(2,6,1,4,9,5);
+       
         
+    }
+    
+    public static void intercambio(int... lista){
+ 
+        //Usamos un bucle anidado
+        for(int i=0;i<(lista.length-1);i++){
+            for(int j=i+1;j<lista.length;j++){
+                if(lista[i]>lista[j]){
+                    //Intercambiamos valores
+                    int variableauxiliar=lista[i];
+                    lista[i]=lista[j];
+                    lista[j]=variableauxiliar;
+ 
+                }
+            }
+        }
+        imprimirArray(lista);
+        
+    }
+    
+    
+        public static void burbuja(int... lista){
+ 
+        //Usamos un bucle anidado
+        for(int i=0;i<(lista.length-1);i++){
+            for(int j=i+1;j<lista.length;j++){
+                if(lista[i]>lista[j]){
+                    //Intercambiamos valores
+                    int variableauxiliar=lista[i];
+                    lista[i]=lista[j];
+                    lista[j]=variableauxiliar;
+ 
+                }
+            }
+        }
+        imprimirArray(lista);
+        
+    }
+    
+    
+    
+    
+        public static void imprimirArray (int lista[]){
+        for(int i=0;i<lista.length;i++){
+            System.out.println(lista[i]);
+        }
     }
     
 }
