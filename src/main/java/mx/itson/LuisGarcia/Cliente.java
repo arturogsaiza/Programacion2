@@ -17,16 +17,21 @@ public class Cliente {
     private String apellido;
     private String correo;
     private String direccion;
+
+    public Cliente() {
+    }
+    
+    
     
     /**
      * constructor de la clase usuario
-     * @param nombre
-     * @param id
-     * @param tipo
-     * @param rfc
-     * @param apellido
-     * @param correo
-     * @param direccion 
+     * @param nombre nombre
+     * @param id id
+     * @param tipo tipo
+     * @param rfc rfc
+     * @param apellido appelido
+     * @param correo correo
+     * @param direccion  direccion
      */
     public Cliente(String nombre, String id, String tipo, String rfc, String apellido, String correo, String direccion) {
         this.nombre = nombre;
@@ -37,6 +42,7 @@ public class Cliente {
         this.correo = correo;
         this.direccion = direccion;
     }
+    
     /**
      *  metodo para el inicio de sesion
      * @param usuario el usuario a iniciar

@@ -5,6 +5,8 @@
  */
 package mx.itson.programacion2;
 
+import mx.itson.LuisGarcia.Cliente;
+
 /**
  * 
  * @author Arturo
@@ -15,10 +17,11 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-       
+       Cliente c = new Cliente();
        // Calculadora c = new Calculadora();
        intercambio(2,6,1,4,9,5);
        
+      
         
     }
     
