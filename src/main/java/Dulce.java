@@ -36,7 +36,7 @@ public class Dulce {
     }
     
     /**
-     * Ese metodo funcionara para concocer que dulce se esta comiendo
+     * se metodo funcionara para concocer que dulce se esta comiendo
      * @param nombre el numbre del dulce que se esta comiendo
      * @return  retorna una frase que incluye el dulce comido
      */

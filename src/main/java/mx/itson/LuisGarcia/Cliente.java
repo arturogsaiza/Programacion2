@@ -18,16 +18,22 @@ public class Cliente {
     private String correo;
     private String direccion;
 
+ 
+    public Cliente() {
+    }
+    
+    
+    
     /**
      * constructor de la clase usuario
-     * @param nombre nombre cel cliente
-     * @param id numero de cliente
-     * @param tipo tipo de membresia
-     * @param rfc rfc del cliente
-     * @param apellido apellido del cliente
-     * @param correo correo del cliente
-     * @param direccion direccion del cliente
-     */
+     * @param nombre nombre
+     * @param id id
+     * @param tipo tipo
+     * @param rfc rfc
+     * @param apellido appelido
+     * @param correo correo
+     * @param direccion  direccion
+ */
     public Cliente(String nombre, String id, String tipo, String rfc, String apellido, String correo, String direccion) {
         this.nombre = nombre;
         this.id = id;
@@ -37,6 +43,7 @@ public class Cliente {
         this.correo = correo;
         this.direccion = direccion;
     }
+    
     /**
      * 
      * @param nombre nombre del cliente para entrar a la pagina
