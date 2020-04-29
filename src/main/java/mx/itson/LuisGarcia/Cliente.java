@@ -18,6 +18,7 @@ public class Cliente {
     private String correo;
     private String direccion;
 
+ 
     public Cliente() {
     }
     
@@ -32,7 +33,7 @@ public class Cliente {
      * @param apellido appelido
      * @param correo correo
      * @param direccion  direccion
-     */
+ */
     public Cliente(String nombre, String id, String tipo, String rfc, String apellido, String correo, String direccion) {
         this.nombre = nombre;
         this.id = id;
@@ -44,13 +45,24 @@ public class Cliente {
     }
     
     /**
-     *  metodo para el inicio de sesion
-     * @param usuario el usuario a iniciar
-     * @param contrasena la constraseña
-     * @return  regresa si el usuario es correcto
+     * 
+     * @param nombre nombre del cliente para entrar a la pagina
+     * @param correo correo del cliente
+     * @return regrasa si los datos son correctos
      */
-    public  boolean login(String usuario, String contrasena){
-    
+    public boolean login(String nombre,String correo){
+        
+        return true;
+    }
+    /**
+     * 
+     * @param nombre nombre del cliente a registrar
+     * @param correo correo del cliente a registrar
+     * @param tipo tipo de membresia que va a comprar
+     * @return regrasa si el registro fue correcto
+     */
+    public boolean registrar(String nombre, String correo, String tipo){
+        
         return true;
     }
 

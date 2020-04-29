@@ -7,7 +7,7 @@ package mx.itson.AaronGastelum;
 
 /**
  * Esta clase funcionara para mostrar datos de un gato
- * @author maste
+ * @author Aaron 216625
  * @version 4/29/2020
  * @see <a href="http://itson.mx" > ir a itson a ver mas sobre el proyecto </a>
  */
